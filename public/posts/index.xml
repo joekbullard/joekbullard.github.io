@@ -39,15 +39,5 @@ Note: While it is possible to use Postgres in a docker container, this is not re
       <description>Geopandas has established itself a great python library for working with spatial data, building on the much loved pandas library and adding the ability to perform spatial operations. In this post I&amp;rsquo;ll run through some of the capabilities of the library. I&amp;rsquo;m using some data from the NBN Atlas - a great resource for species records. This particular dataset contains all mammal records recorded in the locality of Bristol, UK. The code can be found on my github.</description>
     </item>
     
-    <item>
-      <title>My First Post</title>
-      <link>https://joekbullard.github.io/posts/my-first-post/</link>
-      <pubDate>Mon, 21 Nov 2022 00:23:44 +0000</pubDate>
-      
-      <guid>https://joekbullard.github.io/posts/my-first-post/</guid>
-      <description>Elit ex ea ipsum ex irure exercitation minim ex. Velit exercitation ea laborum cupidatat occaecat minim aute deserunt. Excepteur adipisicing commodo nisi non dolore dolor ullamco sint nisi sint tempor magna officia anim.
-print(&amp;#34;Hello world&amp;#34;) select * from some_table THis is a test title This is a test sub heading </description>
-    </item>
-    
   </channel>
 </rss>
