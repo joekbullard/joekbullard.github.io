@@ -12,7 +12,7 @@ But what if there was a way around this? Knowing that large complex geometries =
 
 Let's take an example using the district borough unitary layer included with the [OS Boundary-Line](https://www.ordnancesurvey.co.uk/business-government/products/boundaryline) dataset.
 
-```postgresql
+```sql
 SELECT geom
 FROM district_borough_unitary
 WHERE name ILIKE 'highland'
@@ -22,7 +22,7 @@ WHERE name ILIKE 'highland'
 
 Now let's try adding a bounding box to that geometry to see how far it extends.
 
-```postgresql
+```sql
 SELECT ST_Envelope(geom)
 FROM district_borough_unitary
 WHERE name ILIKE 'highland'
@@ -34,7 +34,7 @@ As you can see, the bounding box that forms the index covers a vast area beyond 
 
 Let's do the same but using `ST_Subdivide` on the geometry.
 
-```postgresql
+```sql
 SELECT ST_Subdivide(geom)
 FROM district_borough_unitary
 WHERE name ILIKE 'highland'
@@ -46,7 +46,7 @@ As you can see, the original geometry has been broken down into a large number o
 
 First, let's try with the plain geometry:
 
-```postgresql
+```sql
 SELECT COUNT(*)
 FROM 
 	public.district_borough_unitary,
@@ -61,7 +61,7 @@ So I went and made a cup of tea, came back and aborted the query as it was takin
 And using the the subdivded geometry....
  
 
-```postgresql
+```sql
 SELECT COUNT(*)
 FROM  
 	public.subdivded_geom,
