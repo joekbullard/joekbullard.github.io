@@ -1,7 +1,7 @@
 ---
 title: "Manipulating NBN species data with Geopandas"
 date: 2022-11-21T01:07:07Z
-draft: true
+draft: false
 ---
 
 Geopandas has established itself a great python library for working with spatial data, building on the much loved pandas library and adding the ability to perform spatial operations. In this post I'll run through some of the capabilities of the library. I'm using some data from the NBN Atlas - a great resource for species records. This particular dataset contains all mammal records recorded in the locality of Bristol, UK. The code can be found on my github.

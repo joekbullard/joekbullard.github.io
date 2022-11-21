@@ -1,7 +1,7 @@
 ---
 title: "Subdivide and Conquer"
 date: 2022-11-21T01:12:57Z
-draft: true
+draft: false
 ---
 
 Dealing with large and complex geometries in postgis can be computationally expensive, even with a spatial index. To understand why this is we need to have some understanding of how a spatial index works. In simple terms, a spatial index is a bounding box that encapsulates the extent of a geometry, using a spatial index can rapidly speed up spatial processing by first checking which bounding boxes intersect - a comparatively quick process - as opposed to which raw geometries intersect - potentially a lot slower - and more so as the size of your dataset increases. If you want to learn a little then the [postgis documentation](https://postgis.net/workshops/postgis-intro/indexing.html) does a good job of explaining it further.

@@ -1,7 +1,7 @@
 ---
 title: "Docker Geoserver Part 1"
 date: 2022-11-21T01:22:15Z
-draft: true
+draft: false
 ---
 
 ![Docker logo](https://joekbullard-django-blog.s3.amazonaws.com/media/markdownx/bc55f853-76c7-4bcb-b0ea-a2ea590d0f8c.png)
