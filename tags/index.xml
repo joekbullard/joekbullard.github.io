@@ -1,14 +1,69 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on joekbullard</title>
+    <title>Tags on Joe k Bullard</title>
     <link>https://joekbullard.github.io/tags/</link>
-    <description>Recent content in Tags on joekbullard</description>
+    <description>Recent content in Tags on Joe k Bullard</description>
     <image>
       <url>https://joekbullard.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://joekbullard.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language><atom:link href="https://joekbullard.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 21 Nov 2022 01:22:15 +0000</lastBuildDate><atom:link href="https://joekbullard.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>docker</title>
+      <link>https://joekbullard.github.io/tags/docker/</link>
+      <pubDate>Mon, 21 Nov 2022 01:22:15 +0000</pubDate>
+      
+      <guid>https://joekbullard.github.io/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>geoserver</title>
+      <link>https://joekbullard.github.io/tags/geoserver/</link>
+      <pubDate>Mon, 21 Nov 2022 01:22:15 +0000</pubDate>
+      
+      <guid>https://joekbullard.github.io/tags/geoserver/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>postgres</title>
+      <link>https://joekbullard.github.io/tags/postgres/</link>
+      <pubDate>Mon, 21 Nov 2022 01:22:15 +0000</pubDate>
+      
+      <guid>https://joekbullard.github.io/tags/postgres/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>postgis</title>
+      <link>https://joekbullard.github.io/tags/postgis/</link>
+      <pubDate>Mon, 21 Nov 2022 01:12:57 +0000</pubDate>
+      
+      <guid>https://joekbullard.github.io/tags/postgis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>geopandas</title>
+      <link>https://joekbullard.github.io/tags/geopandas/</link>
+      <pubDate>Mon, 21 Nov 2022 01:07:07 +0000</pubDate>
+      
+      <guid>https://joekbullard.github.io/tags/geopandas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://joekbullard.github.io/tags/python/</link>
+      <pubDate>Mon, 21 Nov 2022 01:07:07 +0000</pubDate>
+      
+      <guid>https://joekbullard.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
