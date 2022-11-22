@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>geoserver on Joe k Bullard</title>
+    <link>https://joekbullard.github.io/tags/geoserver/</link>
+    <description>Recent content in geoserver on Joe k Bullard</description>
+    <image>
+      <url>https://joekbullard.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://joekbullard.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 21 Nov 2022 01:22:15 +0000</lastBuildDate><atom:link href="https://joekbullard.github.io/tags/geoserver/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker Geoserver Part 1</title>
+      <link>https://joekbullard.github.io/posts/docker-geoserver-part-1/</link>
+      <pubDate>Mon, 21 Nov 2022 01:22:15 +0000</pubDate>
+      
+      <guid>https://joekbullard.github.io/posts/docker-geoserver-part-1/</guid>
+      <description>This is the first in a small series that will go through the process of compiling an open source spatial stack to store, serve and visualise spatial data. Given we will be working with a number of containers it is beneficial to work with docker-compose.
+Note: While it is possible to use Postgres in a docker container, this is not recommended for production purposes. A managed service such as AWS RDS is a better option in these instances.</description>
+    </item>
+    
+  </channel>
+</rss>
