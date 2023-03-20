@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 21 Nov 2022 01:22:15 +0000</lastBuildDate><atom:link href="https://joekbullard.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Mar 2023 19:39:57 +0000</lastBuildDate><atom:link href="https://joekbullard.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GeoPackage and Python - Part 1</title>
+      <link>https://joekbullard.github.io/posts/geopackage-part-1/</link>
+      <pubDate>Mon, 20 Mar 2023 19:39:57 +0000</pubDate>
+      
+      <guid>https://joekbullard.github.io/posts/geopackage-part-1/</guid>
+      <description>GeoPackage (GPKG) is a spatial format that many QGIS users will be familiar with, as a format it offers many advantages over the ubiquitous shapefile format. In short, the Geopackage Encoding Standard enforces a set of rules and standards for storing vector features (Points, Lines, Polygons) and raster data in an SQLite database. While many people will use GPKG as a like-for-like shapefile replacement, through knowledge of some fairly basic SQL it can offer some of the advanced functionality typically associated with spatial databases such as PostgreSQL/PostGIS.</description>
+    </item>
+    
     <item>
       <title>Docker Geoserver Part 1</title>
       <link>https://joekbullard.github.io/posts/docker-geoserver-part-1/</link>
