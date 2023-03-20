@@ -2,6 +2,7 @@
 title: "GeoPackage and Python - Part 1"
 date: 2023-03-20T19:39:57Z
 draft: false
+tags: ['python','geopackage']
 ---
 
 GeoPackage (GPKG) is a spatial format that many QGIS users will be familiar with, as a format it offers [many advantages](http://switchfromshapefile.org/#geopackage) over the ubiquitous shapefile format. In short, the Geopackage Encoding Standard enforces a set of rules and standards for storing vector features (Points, Lines, Polygons) and raster data in an SQLite database. While many people will use GPKG as a like-for-like shapefile replacement, through knowledge of some fairly basic SQL it can offer some of the advanced functionality typically associated with spatial databases such as PostgreSQL/PostGIS. In this post, I will go through some of the requirements of the format specification and how you can create and interact with a geopackage using python
