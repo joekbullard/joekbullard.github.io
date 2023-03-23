@@ -79,8 +79,8 @@ params:
     Content: Geospatial by way of conservation - python, postgres and a dash of linux
 
   socialIcons:
-    - name: twitter
-      url: "https://twitter.com/PvtJoeker"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/joe-bullard-4598245a/"
     - name: github
       url: "https://github.com/joekbullard"
 
