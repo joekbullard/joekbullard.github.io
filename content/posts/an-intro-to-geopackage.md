@@ -108,7 +108,7 @@ A quick note, while you can connect to a geopackage using `sqlite3` and create t
 Let's try populating our tables with some sample data.
 
 ```python
-from ogeo import ogr
+from osgeo import ogr
 
 filename = './sample.gpkg'
 driver = ogr.GetDriverByName('GPKG')
