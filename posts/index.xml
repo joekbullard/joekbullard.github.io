@@ -10,7 +10,17 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 23 Mar 2023 08:32:20 +0000</lastBuildDate><atom:link href="https://joekbullard.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Jul 2023 22:32:05 +0100</lastBuildDate><atom:link href="https://joekbullard.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using docker with Gdal</title>
+      <link>https://joekbullard.github.io/posts/docker-gdal/</link>
+      <pubDate>Sun, 23 Jul 2023 22:32:05 +0100</pubDate>
+      
+      <guid>https://joekbullard.github.io/posts/docker-gdal/</guid>
+      <description>Note - this assumes you have docker installed and are broadly familiar with using it from the command line.
+Anyone who works with GIS will be familiar with the Geospatial Data Abstraction Library, or GDAL as it&amp;rsquo;s more commonly know. It&amp;rsquo;s the swiss army knife of GIS tools - allowing users to read, write and convert between numerous raster and vector formats. For those who aren&amp;rsquo;t familiar there are plenty of resources around that give an introduction, a good place to start is the official GDAL tutorial page.</description>
+    </item>
+    
     <item>
       <title>An Intro to Geopackage</title>
       <link>https://joekbullard.github.io/posts/an-intro-to-geopackage/</link>

@@ -10,11 +10,20 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 23 Mar 2023 08:32:20 +0000</lastBuildDate><atom:link href="https://joekbullard.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Jul 2023 22:32:05 +0100</lastBuildDate><atom:link href="https://joekbullard.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>docker</title>
+      <link>https://joekbullard.github.io/tags/docker/</link>
+      <pubDate>Sun, 23 Jul 2023 22:32:05 +0100</pubDate>
+      
+      <guid>https://joekbullard.github.io/tags/docker/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>gdal</title>
       <link>https://joekbullard.github.io/tags/gdal/</link>
-      <pubDate>Thu, 23 Mar 2023 08:32:20 +0000</pubDate>
+      <pubDate>Sun, 23 Jul 2023 22:32:05 +0100</pubDate>
       
       <guid>https://joekbullard.github.io/tags/gdal/</guid>
       <description></description>
@@ -35,15 +44,6 @@
       <pubDate>Thu, 23 Mar 2023 08:32:20 +0000</pubDate>
       
       <guid>https://joekbullard.github.io/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>docker</title>
-      <link>https://joekbullard.github.io/tags/docker/</link>
-      <pubDate>Mon, 21 Nov 2022 01:22:15 +0000</pubDate>
-      
-      <guid>https://joekbullard.github.io/tags/docker/</guid>
       <description></description>
     </item>
     
