@@ -66,7 +66,7 @@ params:
     imageUrl: "hokusai.jpg"
     imageWidth: 120
     imageHeight: 120
-    imageTitle: my image
+    imageTitle: Hokusai
     buttons:
       - name: Posts
         url: posts
@@ -136,4 +136,4 @@ markup:
     guessSyntax: true
     #lineNos: true
     # noClasses: false
-    style: dracula
+    style: catppuccin-mocha

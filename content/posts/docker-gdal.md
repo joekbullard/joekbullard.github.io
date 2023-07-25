@@ -16,29 +16,29 @@ A full list of docker images is [available here](https://github.com/OSGeo/gdal/p
 docker run -ti --rm  ghcr.io/osgeo/gdal:alpine-small-latest sh
 ```
 Note, the `--rm` flag which means the container will be removed upon exit. This will open a terminal prompt with the docker container, try using `ogrinfo --version` to see which version of GDAL is installed:
-```console
-$ ogrinfo --version
+```bash
+ogrinfo --version
 GDAL 3.8.0dev-6e268bb61c95462d2704dca2ec0cad7d95d32df1, released 2023/07/20
 ```
 Exit the container and let's now test using some spatial data. First let's copy the below into a json file in the current directory (note this will only work on Unix systems, if on windows you can copy paste into a json file)
 
-```console
-$ echo '{ "type": "FeatureCollection", "features": [{"type": "Feature","properties": {"name": "Bristol"},"geometry": {"coordinates": [-2.597643713766729, 51.45504657056361],"type": "Point"}}]}' > test.json
+```bash
+echo '{ "type": "FeatureCollection", "features": [{"type": "Feature","properties": {"name": "Bristol"},"geometry": {"coordinates": [-2.597643713766729, 51.45504657056361],"type": "Point"}}]}' > test.json
 ```
 Next we need to adjust the docker command to mount the current directory as a volume:
 ```docker
 docker run -ti --rm -v $PWD:/data/ ghcr.io/osgeo/gdal:alpine-small-latest sh
 ```
 This will open another terminal, you can then navigate to the mounted directory and inspect the file using ogrinfo:
-```console
-$ cd data
-$ ogrinfo test.json
+```bash
+cd data
+ogrinfo test.json
 INFO: Open of `test.json'
       using driver `GeoJSON' successful.
 1: test (Point)
 ```
 Now we're happy it recognises it as a spatial file let's try converting it using an ogr2ogr command:
-```console
-$ ogr2ogr -f "ESRI Shapefile" test.shp test.json -t_srs "EPSG:27700" 
+```bash
+ogr2ogr -f "ESRI Shapefile" test.shp test.json -t_srs "EPSG:27700" 
 ```
 The above command converts the json file into a shapefile with EPSG:27700. Because we have mounted the drive, it will be accessible both within the container and the host machine.
