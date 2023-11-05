@@ -1,14 +1,13 @@
 ---
-title: "30 Day Map Challenge 2023 -  Day 4 - A bad map"
+title: "Day 4 - A bad map"
 date: 2023-11-05T22:43:36Z
 draft: false
-tags: ['python','overpass', 'mapchallenge']
+tags: ['python','overpass', '30daymapchallenge']
 ---
 
-Not the finest of creations, but I guess that's the point.
-
-<iframe seamless
-src="https://joekbullard.xyz/day04map.html" width="100%" height="500"></iframe>
+Not the finest of creations, but I guess that's the point. Pretty simple really, this map shows the location of all villages/towns/cities that are named "Bad". For a reason I can't quite figure out, Switzerland seems to be the baddest of them all.
+{{< load-plotly >}}
+{{< plotly json="/day04.json" height="600px" >}}
 
 ```python
 import geopandas as gpd
