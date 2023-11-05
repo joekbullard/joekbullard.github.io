@@ -2,19 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://joekbullard.github.io/posts/mapchallenge-day4/</loc>
+    <lastmod>2023-11-05T22:43:36+00:00</lastmod>
+  </url><url>
+    <loc>https://joekbullard.github.io/</loc>
+    <lastmod>2023-11-05T22:43:36+00:00</lastmod>
+  </url><url>
+    <loc>https://joekbullard.github.io/tags/mapchallenge/</loc>
+    <lastmod>2023-11-05T22:43:36+00:00</lastmod>
+  </url><url>
+    <loc>https://joekbullard.github.io/tags/overpass/</loc>
+    <lastmod>2023-11-05T22:43:36+00:00</lastmod>
+  </url><url>
+    <loc>https://joekbullard.github.io/posts/</loc>
+    <lastmod>2023-11-05T22:43:36+00:00</lastmod>
+  </url><url>
+    <loc>https://joekbullard.github.io/tags/python/</loc>
+    <lastmod>2023-11-05T22:43:36+00:00</lastmod>
+  </url><url>
+    <loc>https://joekbullard.github.io/tags/</loc>
+    <lastmod>2023-11-05T22:43:36+00:00</lastmod>
+  </url><url>
     <loc>https://joekbullard.github.io/tags/docker/</loc>
     <lastmod>2023-07-23T22:32:05+01:00</lastmod>
   </url><url>
     <loc>https://joekbullard.github.io/tags/gdal/</loc>
-    <lastmod>2023-07-23T22:32:05+01:00</lastmod>
-  </url><url>
-    <loc>https://joekbullard.github.io/</loc>
-    <lastmod>2023-07-23T22:32:05+01:00</lastmod>
-  </url><url>
-    <loc>https://joekbullard.github.io/posts/</loc>
-    <lastmod>2023-07-23T22:32:05+01:00</lastmod>
-  </url><url>
-    <loc>https://joekbullard.github.io/tags/</loc>
     <lastmod>2023-07-23T22:32:05+01:00</lastmod>
   </url><url>
     <loc>https://joekbullard.github.io/posts/docker-gdal/</loc>
@@ -24,9 +36,6 @@
     <lastmod>2023-03-23T08:32:20+00:00</lastmod>
   </url><url>
     <loc>https://joekbullard.github.io/tags/geoackage/</loc>
-    <lastmod>2023-03-23T08:32:20+00:00</lastmod>
-  </url><url>
-    <loc>https://joekbullard.github.io/tags/python/</loc>
     <lastmod>2023-03-23T08:32:20+00:00</lastmod>
   </url><url>
     <loc>https://joekbullard.github.io/posts/docker-geoserver-part-1/</loc>

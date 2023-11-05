@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>python on Joe k Bullard</title>
-    <link>https://joekbullard.github.io/tags/python/</link>
-    <description>Recent content in python on Joe k Bullard</description>
+    <title>overpass on Joe k Bullard</title>
+    <link>https://joekbullard.github.io/tags/overpass/</link>
+    <description>Recent content in overpass on Joe k Bullard</description>
     <image>
       <url>https://joekbullard.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://joekbullard.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 05 Nov 2023 22:43:36 +0000</lastBuildDate><atom:link href="https://joekbullard.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Nov 2023 22:43:36 +0000</lastBuildDate><atom:link href="https://joekbullard.github.io/tags/overpass/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>30 Day Map Challenge 2023 -  Day 4 - A bad map</title>
       <link>https://joekbullard.github.io/posts/mapchallenge-day4/</link>
@@ -19,24 +19,6 @@
       <guid>https://joekbullard.github.io/posts/mapchallenge-day4/</guid>
       <description>Not the finest of creations, but I guess that&amp;rsquo;s the point.
 import geopandas as gpd import numpy as np import requests from shapely.geometry import Point import plotly.express as px overpass_url = &amp;#34;http://overpass-api.de/api/interpreter&amp;#34; overpass_query = &amp;#34;&amp;#34;&amp;#34; [out:json]; ( node[&amp;#34;place&amp;#34;=&amp;#34;city&amp;#34;][&amp;#34;name&amp;#34;~&amp;#34;^Bad$&amp;#34;]; node[&amp;#34;place&amp;#34;=&amp;#34;town&amp;#34;][&amp;#34;name&amp;#34;~&amp;#34;^Bad$&amp;#34;]; node[&amp;#34;place&amp;#34;=&amp;#34;village&amp;#34;][&amp;#34;name&amp;#34;~&amp;#34;^Bad$&amp;#34;]; node[&amp;#34;place&amp;#34;=&amp;#34;hamlet&amp;#34;][&amp;#34;name&amp;#34;~&amp;#34;^Bad$&amp;#34;]; node[&amp;#34;place&amp;#34;=&amp;#34;isolated_dwelling&amp;#34;][&amp;#34;name&amp;#34;~&amp;#34;^Bad$&amp;#34;]; ); out center; &amp;#34;&amp;#34;&amp;#34; response = requests.get(overpass_url, params={&amp;#39;data&amp;#39;: overpass_query}) data = response.json() # Collect coords into list coords = [] for element in data[&amp;#39;elements&amp;#39;]: if element[&amp;#39;type&amp;#39;] == &amp;#39;node&amp;#39;: lon = element[&amp;#39;lon&amp;#39;] lat = element[&amp;#39;lat&amp;#39;] coords.</description>
-    </item>
-    
-    <item>
-      <title>An Intro to Geopackage</title>
-      <link>https://joekbullard.github.io/posts/an-intro-to-geopackage/</link>
-      <pubDate>Thu, 23 Mar 2023 08:32:20 +0000</pubDate>
-      
-      <guid>https://joekbullard.github.io/posts/an-intro-to-geopackage/</guid>
-      <description>Geopackage is a format that will be familiar to many who work with spatial data, particularly those that use QGIS. In the majority of use cases it will be treated as little more than a shapefile replacement - i.e. a means to manage and share vector data. But what if I told you that by using a geopackage you could have access to a whole range of additional features and functionality more typically associated with a relational database management system (RDMS) like PostgreSQL/PostGIS?</description>
-    </item>
-    
-    <item>
-      <title>Manipulating NBN species data with Geopandas</title>
-      <link>https://joekbullard.github.io/posts/geopandas-nbn/</link>
-      <pubDate>Mon, 21 Nov 2022 01:07:07 +0000</pubDate>
-      
-      <guid>https://joekbullard.github.io/posts/geopandas-nbn/</guid>
-      <description>Geopandas has established itself a great python library for working with spatial data, building on the much loved pandas library and adding the ability to perform spatial operations. In this post I&amp;rsquo;ll run through some of the capabilities of the library. I&amp;rsquo;m using some data from the NBN Atlas - a great resource for species records. This particular dataset contains all mammal records recorded in the locality of Bristol, UK. The code can be found on my github.</description>
     </item>
     
   </channel>
