@@ -7,14 +7,13 @@ tags: ['python','overpass', '30daymapchallenge']
 
 Not the finest of creations, but I guess that's the point. Pretty simple really, this map shows the location of all villages/towns/cities that are named "Bad". For a reason I can't quite figure out, Switzerland seems to be the baddest of them all.
 {{< load-plotly >}}
-{{< plotly json="/day04.json" height="600px" >}}
+{{< plotly json="/day04.json" height="400px" >}}
 
 ```python
 import geopandas as gpd
-import numpy as np
+import plotly.express as px
 import requests
 from shapely.geometry import Point
-import plotly.express as px
 
 overpass_url = "http://overpass-api.de/api/interpreter"
 overpass_query = """
@@ -33,31 +32,44 @@ response = requests.get(overpass_url,
 data = response.json()
 
 # Collect coords into list
-coords = []
-for element in data['elements']:
-  if element['type'] == 'node':
-    lon = element['lon']
-    lat = element['lat']
-    coords.append((lon, lat))
-  elif 'center' in element:
-    lon = element['center']['lon']
-    lat = element['center']['lat']
-    coords.append((lon, lat))
+d = {"name": [], "type": [], "geometry": []}
+for element in data["elements"]:
+    if element["type"] == "node":
+        lon = element["lon"]
+        lat = element["lat"]
+        name = element["tags"]["name"]
+        settlement_type = element["tags"]["place"]
+
+    elif "center" in element:
+        lon = element["center"]["lon"]
+        lat = element["center"]["lat"]
+
+    d["name"].append(name)
+    d["type"].append(settlement_type)
+    d["geometry"].append(Point(lon, lat))
+
+
+gdf = gpd.GeoDataFrame(d, crs="EPSG:4326")
   
-coord_array = np.array(coords)
-
-geometry = [Point(xy) for xy in coord_array]
-
-gdf = gpd.GeoDataFrame(geometry=geometry, columns=['geometry'])
-
 lat = float(gdf.dissolve().centroid.y.iloc[0])
 lon = float(gdf.dissolve().centroid.x.iloc[0])
 
-fig = px.density_mapbox(gdf, lat=gdf.geometry.y, lon=gdf.geometry.x, radius=20, center = dict(lat = lat, lon = lon),
-                        zoom = 2, color_continuous_scale = 'viridis',
-                        mapbox_style = 'carto-darkmatter', title='A useless map showing all locations with the name "Bad"', width=800, height=600)
+fig = px.scatter_mapbox(
+    gdf,
+    lat=gdf.geometry.y,
+    lon=gdf.geometry.x,
+    center=dict(lat=lat, lon=lon),
+    zoom=2,
+    opacity=0.6,
+    hover_data=["name", "type"],
+    mapbox_style="carto-darkmatter",
+    width=600,
+    height=400,
+)
 
-fig.update_layout(coloraxis_colorbar=dict(title={'text':'Badness'}))
+fig.update_layout(
+    margin={"r": 0, "t": 0, "l": 0, "b": 0},
+)
 
 fig.show()
 ```
