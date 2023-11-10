@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>biological records on Joe k Bullard</title>
+    <link>https://joekbullard.github.io/tags/biological-records/</link>
+    <description>Recent content in biological records on Joe k Bullard</description>
+    <image>
+      <url>https://joekbullard.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://joekbullard.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 10 Nov 2023 09:47:30 +0000</lastBuildDate><atom:link href="https://joekbullard.github.io/tags/biological-records/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Day 10 - North America</title>
+      <link>https://joekbullard.github.io/posts/mapchallenge-day10/</link>
+      <pubDate>Fri, 10 Nov 2023 09:47:30 +0000</pubDate>
+      
+      <guid>https://joekbullard.github.io/posts/mapchallenge-day10/</guid>
+      <description>Pretty simple one for today, NBN occurence records of one of the most notorious of US imports, the Eastern Grey Squirrel. As is often the case with biological records, the data is heavily skewed by survey effort. This is the first time I&amp;rsquo;ve used the Datashader library, it&amp;rsquo;s a useful visualisation tool when working with large datasets that would be impractical to plot as vectors. It works with plotly as below but seems easier to use with GeoViews/HoloViews and Bokeh.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -10,13 +10,49 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 05 Nov 2023 22:43:36 +0000</lastBuildDate><atom:link href="https://joekbullard.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Nov 2023 09:47:30 +0000</lastBuildDate><atom:link href="https://joekbullard.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>30daymapchallenge</title>
       <link>https://joekbullard.github.io/tags/30daymapchallenge/</link>
-      <pubDate>Sun, 05 Nov 2023 22:43:36 +0000</pubDate>
+      <pubDate>Fri, 10 Nov 2023 09:47:30 +0000</pubDate>
       
       <guid>https://joekbullard.github.io/tags/30daymapchallenge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>biological records</title>
+      <link>https://joekbullard.github.io/tags/biological-records/</link>
+      <pubDate>Fri, 10 Nov 2023 09:47:30 +0000</pubDate>
+      
+      <guid>https://joekbullard.github.io/tags/biological-records/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>datashader</title>
+      <link>https://joekbullard.github.io/tags/datashader/</link>
+      <pubDate>Fri, 10 Nov 2023 09:47:30 +0000</pubDate>
+      
+      <guid>https://joekbullard.github.io/tags/datashader/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>plotly</title>
+      <link>https://joekbullard.github.io/tags/plotly/</link>
+      <pubDate>Fri, 10 Nov 2023 09:47:30 +0000</pubDate>
+      
+      <guid>https://joekbullard.github.io/tags/plotly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://joekbullard.github.io/tags/python/</link>
+      <pubDate>Fri, 10 Nov 2023 09:47:30 +0000</pubDate>
+      
+      <guid>https://joekbullard.github.io/tags/python/</guid>
       <description></description>
     </item>
     
@@ -26,15 +62,6 @@
       <pubDate>Sun, 05 Nov 2023 22:43:36 +0000</pubDate>
       
       <guid>https://joekbullard.github.io/tags/overpass/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python</title>
-      <link>https://joekbullard.github.io/tags/python/</link>
-      <pubDate>Sun, 05 Nov 2023 22:43:36 +0000</pubDate>
-      
-      <guid>https://joekbullard.github.io/tags/python/</guid>
       <description></description>
     </item>
     
