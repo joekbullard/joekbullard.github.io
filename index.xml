@@ -10,7 +10,19 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 05 Nov 2023 22:43:36 +0000</lastBuildDate><atom:link href="https://joekbullard.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Nov 2023 09:47:30 +0000</lastBuildDate><atom:link href="https://joekbullard.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Day 10 - North America</title>
+      <link>https://joekbullard.github.io/posts/mapchallenge-day10/</link>
+      <pubDate>Fri, 10 Nov 2023 09:47:30 +0000</pubDate>
+      
+      <guid>https://joekbullard.github.io/posts/mapchallenge-day10/</guid>
+      <description>Pretty simple one for today, all biological records of one of the most notorious of US imports, the Eastern Grey Squirrel.
+For the viualisation I used plotly and datashader.
+Data: NBN Trust (2023). The National Biodiversity Network (NBN) Atlas. https://ror.org/00mcxye41.
+import requests import zipfile import pandas as pd import datashader as ds import io import datashader as ds, colorcet from pyproj import Transformer import colorcet import plotly.graph_objects as go params = { &amp;#39;reasonTypeId&amp;#39;: 3, &amp;#39;q&amp;#39;:&amp;#39;Sciurus carolinensis&amp;#39; } url = &amp;#34;https://records-ws.</description>
+    </item>
+    
     <item>
       <title>Day 4 - A bad map</title>
       <link>https://joekbullard.github.io/posts/mapchallenge-day4/</link>
