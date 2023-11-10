@@ -2,11 +2,10 @@
 title: "Day 10 - North America"
 date: 2023-11-10T09:47:30Z
 draft: false
+tags: ['python','datashader', 'plotly', 'biological records', '30daymapchallenge']
 ---
 
-Pretty simple one for today, all biological records of one of the most notorious of US imports, the Eastern Grey Squirrel.
-
-For the viualisation I used plotly and datashader.
+Pretty simple one for today, NBN occurence records of one of the most notorious of US imports, the Eastern Grey Squirrel. As is often the case with biological records, the data is heavily skewed by survey effort. This is the first time I've used the [Datashader](https://datashader.org/) library, it's a useful visualisation tool when working with large datasets that would be impractical to plot as vectors. It works with plotly as below but seems easier to use with GeoViews/HoloViews and Bokeh. A key thing to consider when working with Plotly mapbox plots is that the coordinates must be in 4326, but you need to reproject to avoid [projection distotion](https://github.com/plotly/plotly.py/issues/2710), hence why the script below chops between 3857 and 4326.
 
 {{< load-plotly >}}
 {{< plotly json="/day10.json" height="800px" >}}
@@ -14,15 +13,15 @@ For the viualisation I used plotly and datashader.
 Data: NBN Trust (2023). The National Biodiversity Network (NBN) Atlas. https://ror.org/00mcxye41.
 
 ```python
+import io
 import requests
 import zipfile
 import pandas as pd
 import datashader as ds
-import io
-import datashader as ds, colorcet
-from pyproj import Transformer
-import colorcet
 import plotly.graph_objects as go
+from colorcet import fire
+from pyproj import Transformer
+
 
 params = {
     'reasonTypeId': 3,
@@ -54,7 +53,7 @@ df.loc[:, "longitude_3857"], df.loc[:, "latitude_3857"] = ds.utils.lnglat_to_met
 RESOLUTION=1000
 cvs = ds.Canvas(plot_width=RESOLUTION, plot_height=RESOLUTION)
 agg = cvs.points(df, x="longitude_3857", y="latitude_3857")
-img = ds.tf.shade(agg, cmap=colorcet.fire).to_pil()
+img = ds.tf.shade(agg, cmap=fire).to_pil()
 
 fig = go.Figure(go.Scattermapbox())
 fig.update_layout(
