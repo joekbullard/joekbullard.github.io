@@ -1,15 +1,17 @@
 ---
 title: "Day 10 - North America"
 date: 2023-11-10T09:47:30Z
-draft: true
+draft: false
 ---
 
 Pretty simple one for today, all biological records of one of the most notorious of US imports, the Eastern Grey Squirrel.
 
-For the plot I used plotly and datashader.
+For the viualisation I used plotly and datashader.
 
 {{< load-plotly >}}
 {{< plotly json="/day10.json" height="800px" >}}
+
+Data: NBN Trust (2023). The National Biodiversity Network (NBN) Atlas. https://ror.org/00mcxye41.
 
 ```python
 import requests
@@ -23,9 +25,8 @@ import colorcet
 import plotly.graph_objects as go
 
 params = {
-    'reasonTypeId': 10,
-    'q':'*:*',
-    'fq':'genus:Sciurus'
+    'reasonTypeId': 3,
+    'q':'Sciurus carolinensis'
 }
 
 url = "https://records-ws.nbnatlas.org/occurrences/index/download"
@@ -64,8 +65,7 @@ fig.update_layout(
             {
                 "sourcetype": "image",
                 "source": img,
-                # Sets the coordinates array contains [longitude, latitude] pairs for the image corners listed in
-                # clockwise order: top left, top right, bottom right, bottom left.
+                # plotly needs coords in EPSG:4326
                 "coordinates": [
                     t3857_to_4326.transform(
                         agg.coords["longitude_3857"].values[a],
@@ -76,9 +76,10 @@ fig.update_layout(
             }
         ],
         "center": 
-            {"lat": 53.943155, "lon": -3.8122559}
+            {"lat": 54.826008, "lon": -3.8122559}
     },
     height=800,
     margin={"l": 0, "b": 0, "t": 0, "r": 0},
 )
+fig.show()
 ```
