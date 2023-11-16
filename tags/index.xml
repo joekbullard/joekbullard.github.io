@@ -10,13 +10,40 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 11 Nov 2023 10:58:41 +0000</lastBuildDate><atom:link href="https://joekbullard.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Nov 2023 22:31:46 +0000</lastBuildDate><atom:link href="https://joekbullard.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>30daymapchallenge</title>
       <link>https://joekbullard.github.io/tags/30daymapchallenge/</link>
-      <pubDate>Sat, 11 Nov 2023 10:58:41 +0000</pubDate>
+      <pubDate>Wed, 15 Nov 2023 22:31:46 +0000</pubDate>
       
       <guid>https://joekbullard.github.io/tags/30daymapchallenge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>https://joekbullard.github.io/tags/docker/</link>
+      <pubDate>Wed, 15 Nov 2023 22:31:46 +0000</pubDate>
+      
+      <guid>https://joekbullard.github.io/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>postgis</title>
+      <link>https://joekbullard.github.io/tags/postgis/</link>
+      <pubDate>Wed, 15 Nov 2023 22:31:46 +0000</pubDate>
+      
+      <guid>https://joekbullard.github.io/tags/postgis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>postgres</title>
+      <link>https://joekbullard.github.io/tags/postgres/</link>
+      <pubDate>Wed, 15 Nov 2023 22:31:46 +0000</pubDate>
+      
+      <guid>https://joekbullard.github.io/tags/postgres/</guid>
       <description></description>
     </item>
     
@@ -66,15 +93,6 @@
     </item>
     
     <item>
-      <title>docker</title>
-      <link>https://joekbullard.github.io/tags/docker/</link>
-      <pubDate>Sun, 23 Jul 2023 22:32:05 +0100</pubDate>
-      
-      <guid>https://joekbullard.github.io/tags/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>gdal</title>
       <link>https://joekbullard.github.io/tags/gdal/</link>
       <pubDate>Sun, 23 Jul 2023 22:32:05 +0100</pubDate>
@@ -98,24 +116,6 @@
       <pubDate>Mon, 21 Nov 2022 01:22:15 +0000</pubDate>
       
       <guid>https://joekbullard.github.io/tags/geoserver/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>postgres</title>
-      <link>https://joekbullard.github.io/tags/postgres/</link>
-      <pubDate>Mon, 21 Nov 2022 01:22:15 +0000</pubDate>
-      
-      <guid>https://joekbullard.github.io/tags/postgres/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>postgis</title>
-      <link>https://joekbullard.github.io/tags/postgis/</link>
-      <pubDate>Mon, 21 Nov 2022 01:12:57 +0000</pubDate>
-      
-      <guid>https://joekbullard.github.io/tags/postgis/</guid>
       <description></description>
     </item>
     

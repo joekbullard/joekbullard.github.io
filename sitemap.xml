@@ -3,21 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://joekbullard.github.io/tags/30daymapchallenge/</loc>
-    <lastmod>2023-11-11T10:58:41+00:00</lastmod>
+    <lastmod>2023-11-15T22:31:46+00:00</lastmod>
+  </url><url>
+    <loc>https://joekbullard.github.io/posts/mapchallenge-day16/</loc>
+    <lastmod>2023-11-15T22:31:46+00:00</lastmod>
+  </url><url>
+    <loc>https://joekbullard.github.io/tags/docker/</loc>
+    <lastmod>2023-11-15T22:31:46+00:00</lastmod>
+  </url><url>
+    <loc>https://joekbullard.github.io/</loc>
+    <lastmod>2023-11-15T22:31:46+00:00</lastmod>
+  </url><url>
+    <loc>https://joekbullard.github.io/tags/postgis/</loc>
+    <lastmod>2023-11-15T22:31:46+00:00</lastmod>
+  </url><url>
+    <loc>https://joekbullard.github.io/tags/postgres/</loc>
+    <lastmod>2023-11-15T22:31:46+00:00</lastmod>
+  </url><url>
+    <loc>https://joekbullard.github.io/posts/</loc>
+    <lastmod>2023-11-15T22:31:46+00:00</lastmod>
+  </url><url>
+    <loc>https://joekbullard.github.io/tags/</loc>
+    <lastmod>2023-11-15T22:31:46+00:00</lastmod>
   </url><url>
     <loc>https://joekbullard.github.io/posts/mapchallenge-day11/</loc>
     <lastmod>2023-11-11T10:58:41+00:00</lastmod>
   </url><url>
-    <loc>https://joekbullard.github.io/</loc>
-    <lastmod>2023-11-11T10:58:41+00:00</lastmod>
-  </url><url>
-    <loc>https://joekbullard.github.io/posts/</loc>
-    <lastmod>2023-11-11T10:58:41+00:00</lastmod>
-  </url><url>
     <loc>https://joekbullard.github.io/tags/python/</loc>
-    <lastmod>2023-11-11T10:58:41+00:00</lastmod>
-  </url><url>
-    <loc>https://joekbullard.github.io/tags/</loc>
     <lastmod>2023-11-11T10:58:41+00:00</lastmod>
   </url><url>
     <loc>https://joekbullard.github.io/tags/biological-records/</loc>
@@ -38,9 +50,6 @@
     <loc>https://joekbullard.github.io/tags/overpass/</loc>
     <lastmod>2023-11-05T22:43:36+00:00</lastmod>
   </url><url>
-    <loc>https://joekbullard.github.io/tags/docker/</loc>
-    <lastmod>2023-07-23T22:32:05+01:00</lastmod>
-  </url><url>
     <loc>https://joekbullard.github.io/tags/gdal/</loc>
     <lastmod>2023-07-23T22:32:05+01:00</lastmod>
   </url><url>
@@ -58,12 +67,6 @@
   </url><url>
     <loc>https://joekbullard.github.io/tags/geoserver/</loc>
     <lastmod>2022-11-21T01:22:15+00:00</lastmod>
-  </url><url>
-    <loc>https://joekbullard.github.io/tags/postgres/</loc>
-    <lastmod>2022-11-21T01:22:15+00:00</lastmod>
-  </url><url>
-    <loc>https://joekbullard.github.io/tags/postgis/</loc>
-    <lastmod>2022-11-21T01:12:57+00:00</lastmod>
   </url><url>
     <loc>https://joekbullard.github.io/posts/subdivide-and-conquer/</loc>
     <lastmod>2022-11-21T01:12:57+00:00</lastmod>
