@@ -8,7 +8,7 @@ tags: ['python','datashader', 'plotly', 'biological records', '30daymapchallenge
 Pretty simple one for today, NBN occurence records of one of the most notorious of US imports, the Eastern Grey Squirrel. As is often the case with biological records, the data is heavily skewed by survey effort. This is the first time I've used the [Datashader](https://datashader.org/) library, it's a useful visualisation tool when working with large datasets that would be impractical to plot as vectors. It works with plotly as below but seems easier to use with GeoViews/HoloViews and Bokeh. A key thing to consider when working with Plotly mapbox plots is that the coordinates must be in 4326, but you need to reproject to avoid [projection distotion](https://github.com/plotly/plotly.py/issues/2710), hence why the script below chops between 3857 and 4326.
 
 {{< load-plotly >}}
-{{< plotly json="/day10.json" height="800px" >}}
+{{< plotly json="/30daymapchallenge2023/day10.json" height="800px" >}}
 
 Data: NBN Trust (2023). The National Biodiversity Network (NBN) Atlas. https://ror.org/00mcxye41.
 

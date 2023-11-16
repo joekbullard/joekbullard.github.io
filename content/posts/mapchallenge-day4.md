@@ -7,7 +7,7 @@ tags: ['python','overpass', '30daymapchallenge']
 
 Not the finest of creations, but I guess that's the point. Pretty simple really, this map shows the location of all villages/towns/cities that are named "Bad". For a reason I can't quite figure out, Switzerland seems to be the baddest of them all.
 {{< load-plotly >}}
-{{< plotly json="/day04.json" height="400px" >}}
+{{< plotly json="/30daymapchallenge2023/day04.json" height="400px" >}}
 
 ```python
 import geopandas as gpd
