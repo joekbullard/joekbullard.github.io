@@ -31,9 +31,9 @@ ogr2ogr -f PostgreSQL PG:"dbname=postgres user=postgres password=mysecretpasswor
 Now we have our cities data, we just need to process it generate our geometry column. Given the data is a global dataset, we can use the [geography type](https://postgis.net/documentation/faq/geometry-or-geography/) for this. Witihn the psql shell or using qgis dbmanager you can use the following:
 
 ```sql
-ALTER TABLE cities ADD COLUMN geog geography(POINT,4326);
+alter table cities add column geog geography(POINT,4326);
 update table cities set geog = ST_GeogFromText('SRID=4326;POINT(' || lng || ' ' || lat || ')');
-CREATE INDEX cities_geog_gix ON cities USING GIST (geog);
+create index cities_geog_gix ON cities USING GIST (geog);
 ```
 
 We now have our cities data as geography and built a spatial index, you can load this into qgis and have a look. 
@@ -65,7 +65,7 @@ This query uses a cross join to combine each row of the table with one another, 
 
 ![Query results](/30daymapchallenge2023/day16_table.png)
 
-As we can see, Perth is not quite first but a very respectable second. Let's amend the query to include the 10 nearest neighbours of Perth and plot them.
+As we can see, Perth is not quite first but a very respectable second. Let's amend the query to include the five nearest neighbours of Perth and plot them.
 
 ```sql
 select 
