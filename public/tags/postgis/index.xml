@@ -1,23 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>postgis on Joe k Bullard</title>
-    <link>https://joekbullard.github.io/tags/postgis/</link>
-    <description>Recent content in postgis on Joe k Bullard</description>
+    <title>Postgis on Joe k Bullard</title>
+    <link>http://localhost:1313/tags/postgis/</link>
+    <description>Recent content in Postgis on Joe k Bullard</description>
     <image>
-      <url>https://joekbullard.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://joekbullard.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 21 Nov 2022 01:12:57 +0000</lastBuildDate><atom:link href="https://joekbullard.github.io/tags/postgis/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Nov 2023 22:31:46 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/postgis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Day 16 - Oceania</title>
+      <link>http://localhost:1313/posts/mapchallenge-day16/</link>
+      <pubDate>Wed, 15 Nov 2023 22:31:46 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/mapchallenge-day16/</guid>
+      <description>&lt;p&gt;It is often said that Perth is one of the most isolated cities on the planet, indeed Wikipedia mentions the following:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;With more than two million residents, Perth is one of the most isolated major cities in the world. The nearest city with a population of more than 100,000 is Adelaide, over 2,100 km (1,305 mi) away. Perth is geographically closer to both East Timor (2,800 km or 1,700 mi), and Jakarta, Indonesia (3,000 km or 1,900 mi), than to Sydney (3,300 km or 2,100 mi).&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Subdivide and Conquer</title>
-      <link>https://joekbullard.github.io/posts/subdivide-and-conquer/</link>
+      <link>http://localhost:1313/posts/subdivide-and-conquer/</link>
       <pubDate>Mon, 21 Nov 2022 01:12:57 +0000</pubDate>
       
-      <guid>https://joekbullard.github.io/posts/subdivide-and-conquer/</guid>
-      <description>Dealing with large and complex geometries in postgis can be computationally expensive, even with a spatial index. To understand why this is we need to have some understanding of how a spatial index works. In simple terms, a spatial index is a bounding box that encapsulates the extent of a geometry, using a spatial index can rapidly speed up spatial processing by first checking which bounding boxes intersect - a comparatively quick process - as opposed to which raw geometries intersect - potentially a lot slower - and more so as the size of your dataset increases.</description>
+      <guid>http://localhost:1313/posts/subdivide-and-conquer/</guid>
+      <description>&lt;p&gt;Dealing with large and complex geometries in postgis can be computationally expensive, even with a spatial index. To understand why this is we need to have some understanding of how a spatial index works. In simple terms, a spatial index is a bounding box that encapsulates the extent of a geometry, using a spatial index can rapidly speed up spatial processing by first checking which bounding boxes intersect - a comparatively quick process - as opposed to which raw geometries intersect - potentially a lot slower - and more so as the size of your dataset increases. If you want to learn a little then the &lt;a href=&#34;https://postgis.net/workshops/postgis-intro/indexing.html&#34;&gt;postgis documentation&lt;/a&gt; does a good job of explaining it further.&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>geopandas on Joe k Bullard</title>
-    <link>https://joekbullard.github.io/tags/geopandas/</link>
-    <description>Recent content in geopandas on Joe k Bullard</description>
+    <title>Geopandas on Joe k Bullard</title>
+    <link>http://localhost:1313/tags/geopandas/</link>
+    <description>Recent content in Geopandas on Joe k Bullard</description>
     <image>
-      <url>https://joekbullard.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://joekbullard.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 21 Nov 2022 01:07:07 +0000</lastBuildDate><atom:link href="https://joekbullard.github.io/tags/geopandas/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Nov 2022 01:07:07 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/geopandas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Manipulating NBN species data with Geopandas</title>
-      <link>https://joekbullard.github.io/posts/geopandas-nbn/</link>
+      <link>http://localhost:1313/posts/geopandas-nbn/</link>
       <pubDate>Mon, 21 Nov 2022 01:07:07 +0000</pubDate>
       
-      <guid>https://joekbullard.github.io/posts/geopandas-nbn/</guid>
-      <description>Geopandas has established itself a great python library for working with spatial data, building on the much loved pandas library and adding the ability to perform spatial operations. In this post I&amp;rsquo;ll run through some of the capabilities of the library. I&amp;rsquo;m using some data from the NBN Atlas - a great resource for species records. This particular dataset contains all mammal records recorded in the locality of Bristol, UK. The code can be found on my github.</description>
+      <guid>http://localhost:1313/posts/geopandas-nbn/</guid>
+      <description>&lt;p&gt;Geopandas has established itself a great python library for working with spatial data, building on the much loved pandas library and adding the ability to perform spatial operations. In this post I&amp;rsquo;ll run through some of the capabilities of the library. I&amp;rsquo;m using some data from the NBN Atlas - a great resource for species records. This particular dataset contains all mammal records recorded in the locality of Bristol, UK. The code can be found on my github.&lt;/p&gt;</description>
     </item>
     
   </channel>

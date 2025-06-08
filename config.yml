@@ -1,8 +1,10 @@
 baseURL: https://joekbullard.github.io
 languageCode: en-gb
 title: Joe k Bullard
-paginate: 5
 theme: PaperMod
+
+pagination:
+  pagerSize: 5
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -72,6 +74,7 @@ params:
         url: posts
       - name: Tags
         url: tags
+  
 
   # home-info mode
   homeInfoParams:
@@ -137,3 +140,5 @@ markup:
     #lineNos: true
     # noClasses: false
     style: catppuccin-mocha
+
+  
