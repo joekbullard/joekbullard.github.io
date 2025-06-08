@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>gdal on Joe k Bullard</title>
+    <title>Gdal on Joe k Bullard</title>
     <link>https://joekbullard.github.io/tags/gdal/</link>
-    <description>Recent content in gdal on Joe k Bullard</description>
+    <description>Recent content in Gdal on Joe k Bullard</description>
     <image>
       <url>https://joekbullard.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://joekbullard.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
@@ -17,8 +17,8 @@
       <pubDate>Sun, 23 Jul 2023 22:32:05 +0100</pubDate>
       
       <guid>https://joekbullard.github.io/posts/docker-gdal/</guid>
-      <description>Note - this assumes you have docker installed and are broadly familiar with using it from the command line.
-Anyone who works with GIS will be familiar with the Geospatial Data Abstraction Library, or GDAL as it&amp;rsquo;s more commonly know. It&amp;rsquo;s the swiss army knife of GIS tools - allowing users to read, write and convert between numerous raster and vector formats. For those who aren&amp;rsquo;t familiar there are plenty of resources around that give an introduction, a good place to start is the official GDAL tutorial page.</description>
+      <description>&lt;p&gt;Note - this assumes you have docker installed and are broadly familiar with using it from the command line.&lt;/p&gt;
+&lt;p&gt;Anyone who works with GIS will be familiar with the Geospatial Data Abstraction Library, or GDAL as it&amp;rsquo;s more commonly know. It&amp;rsquo;s the swiss army knife of GIS tools - allowing users to read, write and convert between numerous raster and vector formats. For those who aren&amp;rsquo;t familiar there are plenty of resources around that give an introduction, a good place to start is the &lt;a href=&#34;https://gdal.org/tutorials/index.html&#34;&gt;official GDAL tutorial page.&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@ Anyone who works with GIS will be familiar with the Geospatial Data Abstraction 
       <pubDate>Thu, 23 Mar 2023 08:32:20 +0000</pubDate>
       
       <guid>https://joekbullard.github.io/posts/an-intro-to-geopackage/</guid>
-      <description>Geopackage is a format that will be familiar to many who work with spatial data, particularly those that use QGIS. In the majority of use cases it will be treated as little more than a shapefile replacement - i.e. a means to manage and share vector data. But what if I told you that by using a geopackage you could have access to a whole range of additional features and functionality more typically associated with a relational database management system (RDMS) like PostgreSQL/PostGIS?</description>
+      <description>&lt;p&gt;Geopackage is a format that will be familiar to many who work with spatial data, particularly those that use QGIS. In the majority of use cases it will be treated as little more than a shapefile replacement - i.e. a means to manage and share vector data. But what if I told you that by using a geopackage you could have access to a whole range of additional features and functionality more typically associated with a relational database management system (RDMS) like PostgreSQL/PostGIS? In this three part series we will go on a deep dive into some of the finer details of geopackage - but first lets start with the fundemental question - what is a GeoPackage?&lt;/p&gt;</description>
     </item>
     
   </channel>

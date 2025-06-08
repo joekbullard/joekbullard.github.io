@@ -10,7 +10,25 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 15 Nov 2023 22:31:46 +0000</lastBuildDate><atom:link href="https://joekbullard.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Jun 2025 21:17:51 +0100</lastBuildDate><atom:link href="https://joekbullard.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Clojure</title>
+      <link>https://joekbullard.github.io/tags/clojure/</link>
+      <pubDate>Sun, 08 Jun 2025 21:17:51 +0100</pubDate>
+      
+      <guid>https://joekbullard.github.io/tags/clojure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Til</title>
+      <link>https://joekbullard.github.io/tags/til/</link>
+      <pubDate>Sun, 08 Jun 2025 21:17:51 +0100</pubDate>
+      
+      <guid>https://joekbullard.github.io/tags/til/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>30daymapchallenge</title>
       <link>https://joekbullard.github.io/tags/30daymapchallenge/</link>
@@ -21,7 +39,7 @@
     </item>
     
     <item>
-      <title>docker</title>
+      <title>Docker</title>
       <link>https://joekbullard.github.io/tags/docker/</link>
       <pubDate>Wed, 15 Nov 2023 22:31:46 +0000</pubDate>
       
@@ -30,7 +48,7 @@
     </item>
     
     <item>
-      <title>postgis</title>
+      <title>Postgis</title>
       <link>https://joekbullard.github.io/tags/postgis/</link>
       <pubDate>Wed, 15 Nov 2023 22:31:46 +0000</pubDate>
       
@@ -39,7 +57,7 @@
     </item>
     
     <item>
-      <title>postgres</title>
+      <title>Postgres</title>
       <link>https://joekbullard.github.io/tags/postgres/</link>
       <pubDate>Wed, 15 Nov 2023 22:31:46 +0000</pubDate>
       
@@ -48,7 +66,7 @@
     </item>
     
     <item>
-      <title>python</title>
+      <title>Python</title>
       <link>https://joekbullard.github.io/tags/python/</link>
       <pubDate>Sat, 11 Nov 2023 10:58:41 +0000</pubDate>
       
@@ -57,7 +75,7 @@
     </item>
     
     <item>
-      <title>biological records</title>
+      <title>Biological Records</title>
       <link>https://joekbullard.github.io/tags/biological-records/</link>
       <pubDate>Fri, 10 Nov 2023 09:47:30 +0000</pubDate>
       
@@ -66,7 +84,7 @@
     </item>
     
     <item>
-      <title>datashader</title>
+      <title>Datashader</title>
       <link>https://joekbullard.github.io/tags/datashader/</link>
       <pubDate>Fri, 10 Nov 2023 09:47:30 +0000</pubDate>
       
@@ -75,7 +93,7 @@
     </item>
     
     <item>
-      <title>plotly</title>
+      <title>Plotly</title>
       <link>https://joekbullard.github.io/tags/plotly/</link>
       <pubDate>Fri, 10 Nov 2023 09:47:30 +0000</pubDate>
       
@@ -84,7 +102,7 @@
     </item>
     
     <item>
-      <title>overpass</title>
+      <title>Overpass</title>
       <link>https://joekbullard.github.io/tags/overpass/</link>
       <pubDate>Sun, 05 Nov 2023 22:43:36 +0000</pubDate>
       
@@ -93,7 +111,7 @@
     </item>
     
     <item>
-      <title>gdal</title>
+      <title>Gdal</title>
       <link>https://joekbullard.github.io/tags/gdal/</link>
       <pubDate>Sun, 23 Jul 2023 22:32:05 +0100</pubDate>
       
@@ -102,7 +120,7 @@
     </item>
     
     <item>
-      <title>geoackage</title>
+      <title>Geoackage</title>
       <link>https://joekbullard.github.io/tags/geoackage/</link>
       <pubDate>Thu, 23 Mar 2023 08:32:20 +0000</pubDate>
       
@@ -111,7 +129,7 @@
     </item>
     
     <item>
-      <title>geoserver</title>
+      <title>Geoserver</title>
       <link>https://joekbullard.github.io/tags/geoserver/</link>
       <pubDate>Mon, 21 Nov 2022 01:22:15 +0000</pubDate>
       
@@ -120,7 +138,7 @@
     </item>
     
     <item>
-      <title>geopandas</title>
+      <title>Geopandas</title>
       <link>https://joekbullard.github.io/tags/geopandas/</link>
       <pubDate>Mon, 21 Nov 2022 01:07:07 +0000</pubDate>
       

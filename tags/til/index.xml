@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Til on Joe k Bullard</title>
+    <link>https://joekbullard.github.io/tags/til/</link>
+    <description>Recent content in Til on Joe k Bullard</description>
+    <image>
+      <url>https://joekbullard.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://joekbullard.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 08 Jun 2025 21:17:51 +0100</lastBuildDate><atom:link href="https://joekbullard.github.io/tags/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TIL how to destructure with clojure</title>
+      <link>https://joekbullard.github.io/posts/destructuring-with-clojure-pt1/</link>
+      <pubDate>Sun, 08 Jun 2025 21:17:51 +0100</pubDate>
+      
+      <guid>https://joekbullard.github.io/posts/destructuring-with-clojure-pt1/</guid>
+      <description>&lt;p&gt;This isn&amp;rsquo;t strictly a &amp;ldquo;TIL&amp;rdquo; but it seemed like a good place to start as I&amp;rsquo;ve recently started learning Clojure for a work project. Compared to a language like Python the syntax is radically different, most code written in Clojure comes in what is known as a form - a statement contained within parentheses, for example:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-clojure&#34; data-lang=&#34;clojure&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;+ &lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;* &lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;;; 6&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;One aspect I&amp;rsquo;ve found particularly challenging is the syntax around destructuring of maps and vectors within a &lt;code&gt;let&lt;/code&gt; form. &lt;code&gt;let&lt;/code&gt; is what is known as a special form and is used to bind a data structure to a symbol that is usable within the scope of the &lt;code&gt;let&lt;/code&gt; form. For example:&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

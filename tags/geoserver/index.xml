@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>geoserver on Joe k Bullard</title>
+    <title>Geoserver on Joe k Bullard</title>
     <link>https://joekbullard.github.io/tags/geoserver/</link>
-    <description>Recent content in geoserver on Joe k Bullard</description>
+    <description>Recent content in Geoserver on Joe k Bullard</description>
     <image>
       <url>https://joekbullard.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://joekbullard.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
@@ -17,8 +17,10 @@
       <pubDate>Mon, 21 Nov 2022 01:22:15 +0000</pubDate>
       
       <guid>https://joekbullard.github.io/posts/docker-geoserver-part-1/</guid>
-      <description>This is the first in a small series that will go through the process of compiling an open source spatial stack to store, serve and visualise spatial data. Given we will be working with a number of containers it is beneficial to work with docker-compose.
-Note: While it is possible to use Postgres in a docker container, this is not recommended for production purposes. A managed service such as AWS RDS is a better option in these instances.</description>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://joekbullard-django-blog.s3.amazonaws.com/media/markdownx/bc55f853-76c7-4bcb-b0ea-a2ea590d0f8c.png&#34; alt=&#34;Docker logo&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;This is the first in a small series that will go through the process of compiling an open source spatial stack to store, serve and visualise spatial data. Given we will be working with a number of containers it is beneficial to work with docker-compose.&lt;/p&gt;
+&lt;p&gt;Note: While it is possible to use Postgres in a docker container, this is not recommended for production purposes. A managed service such as AWS RDS is a better option in these instances.&lt;/p&gt;</description>
     </item>
     
   </channel>
