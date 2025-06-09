@@ -10,13 +10,22 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 08 Jun 2025 21:17:51 +0100</lastBuildDate><atom:link href="https://joekbullard.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Jun 2025 21:39:16 +0100</lastBuildDate><atom:link href="https://joekbullard.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Clojure</title>
       <link>https://joekbullard.github.io/tags/clojure/</link>
-      <pubDate>Sun, 08 Jun 2025 21:17:51 +0100</pubDate>
+      <pubDate>Mon, 09 Jun 2025 21:39:16 +0100</pubDate>
       
       <guid>https://joekbullard.github.io/tags/clojure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spatial</title>
+      <link>https://joekbullard.github.io/tags/spatial/</link>
+      <pubDate>Mon, 09 Jun 2025 21:39:16 +0100</pubDate>
+      
+      <guid>https://joekbullard.github.io/tags/spatial/</guid>
       <description></description>
     </item>
     
