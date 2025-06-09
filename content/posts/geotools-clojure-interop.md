@@ -1,7 +1,7 @@
 ---
 title: "TIL how to use Java spatial libraries in Clojure"
 date: 2025-06-09T21:39:16+01:00
-draft: true
+draft: false
 tags: ['clojure', 'spatial']
 ---
 
@@ -14,11 +14,9 @@ If you're familiar with python then you've probably encountered a `requirements.
 ```txt
 # example requirements.txt
 pandas>=1.8
-numpy>=2.0
-matplotlib
 ```
 
-The Clojure equivlent is `deps.edn`, this file is usually found in the project root. If, like me, you've set your Clojure project up in VSCode using [Calva](http://caliva.io), you will find your `deps.edn` file has the following:
+The Clojure equivalent is `deps.edn`, this file is usually found in the project root. If, like me, you've set your Clojure project up in VSCode using [Calva](http://caliva.io), you will find your `deps.edn` file has the following:
 
 ```clojure
 {:deps {org.clojure/clojure {:mvn/version "1.12.0"}}}
@@ -41,8 +39,7 @@ Here we have specified `gt-geopkg` as a dependency. One slight complication with
 To access GeoTools, you need to add the following to your `deps.edn`:
 
 ```clojure
-;; new
-{:mvn/repos {"OSGeo" {:url "https://repo.osgeo.org/repository/release"}}
+{:mvn/repos {"OSGeo" {:url "https://repo.osgeo.org/repository/release"}} ;;new
  :deps
  {org.clojure/clojure {:mvn/version "1.12.0"}
   org.geotools/gt-geopkg {:mvn/version "30.1"}
