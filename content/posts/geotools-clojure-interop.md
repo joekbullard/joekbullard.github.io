@@ -2,7 +2,7 @@
 title: "TIL how to use Java spatial libraries in Clojure"
 date: 2025-06-09T21:39:16+01:00
 draft: false
-tags: ['clojure', 'spatial']
+tags: ['clojure', 'spatial', 'til']
 ---
 
 Being able to utilise Java libraries through interop is a really powerful Clojure feature. One such example that I've been using recently is Geotools, a geospatial library - specifically, I have been usign it to create and write to a [GeoPackage.](https://www.geopackage.org/). This post will quickly run through the basics of accessing Java libraries through Clojure - this will be followed by another post showing how to use this library to create a GeoPackage.
@@ -61,4 +61,4 @@ This adds the OSGeo repository - if you now end the current REPL session and jac
 (create-gpkg "output.gpkg")
 ```
 
-This will create an empty (and currently invalid) GeoPackage called `output.gpkg` in your project root. The next post will cover defining the correct GeoPackage system tables.
+This will create an empty (and currently invalid) GeoPackage called `output.gpkg` in your project root - as I continue my Clojure journey I will be revisiting this at a later date.
