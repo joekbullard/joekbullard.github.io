@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 09 Jun 2025 21:39:16 +0100</lastBuildDate><atom:link href="https://joekbullard.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Jun 2025 21:23:28 +0100</lastBuildDate><atom:link href="https://joekbullard.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TIL about threading in Clojure</title>
+      <link>https://joekbullard.github.io/posts/til-about-threading/</link>
+      <pubDate>Tue, 10 Jun 2025 21:23:28 +0100</pubDate>
+      
+      <guid>https://joekbullard.github.io/posts/til-about-threading/</guid>
+      <description>&lt;p&gt;Clojure has an incredble range of functions and macros in its core library - &lt;a href=&#34;https://clojuredocs.org/quickref&#34;&gt;just look at them all!&lt;/a&gt; While I don&amp;rsquo;t expect to ever learn them all by heart, there are some that I&amp;rsquo;ve figured are important for shaping how you breakdown a problem with Clojure. I&amp;rsquo;ve particularly enjoyed improving my understanding of the threading macros &lt;code&gt;-&amp;gt;&lt;/code&gt; and &lt;code&gt;-&amp;gt;&amp;gt;&lt;/code&gt; (There are others, such as &lt;code&gt;some-&amp;gt;&lt;/code&gt;, but I&amp;rsquo;m yet to use them myself).&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>TIL how to use Java spatial libraries in Clojure</title>
       <link>https://joekbullard.github.io/posts/geotools-clojure-interop/</link>
@@ -22,10 +31,10 @@
     
     <item>
       <title>TIL how to destructure with clojure</title>
-      <link>https://joekbullard.github.io/posts/destructuring-with-clojure-pt1/</link>
+      <link>https://joekbullard.github.io/posts/destructuring-with-clojure/</link>
       <pubDate>Sun, 08 Jun 2025 21:17:51 +0100</pubDate>
       
-      <guid>https://joekbullard.github.io/posts/destructuring-with-clojure-pt1/</guid>
+      <guid>https://joekbullard.github.io/posts/destructuring-with-clojure/</guid>
       <description>&lt;p&gt;This isn&amp;rsquo;t strictly a &amp;ldquo;TIL&amp;rdquo; but it seemed like a good place to start as I&amp;rsquo;ve recently started learning Clojure for a work project. Compared to a language like Python the syntax is radically different, most code written in Clojure comes in what is known as a form - a statement contained within parentheses, for example:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-clojure&#34; data-lang=&#34;clojure&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;+ &lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;* &lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;;; 6&lt;/span&gt;
