@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 10 Jun 2025 21:23:28 +0100</lastBuildDate><atom:link href="https://joekbullard.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Jul 2025 21:10:11 +0100</lastBuildDate><atom:link href="https://joekbullard.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blackjack with Clojure - Part 1</title>
+      <link>https://joekbullard.github.io/posts/clojure-blackjack-pt1/</link>
+      <pubDate>Sun, 20 Jul 2025 21:10:11 +0100</pubDate>
+      
+      <guid>https://joekbullard.github.io/posts/clojure-blackjack-pt1/</guid>
+      <description>&lt;p&gt;One of the first small projects I like to do when learning a new language is to model a deck of cards. It&amp;rsquo;s a good way to familiarise yourself with the basics of language, such as data structures and flow control, once you have a functioning card deck you can take it a step further and model a game like poker or blackjack. As part of my Clojure learning, I have been playing around a bit and thought it would be fun to model the card game blackjack.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>TIL about threading in Clojure</title>
       <link>https://joekbullard.github.io/posts/til-about-threading/</link>
