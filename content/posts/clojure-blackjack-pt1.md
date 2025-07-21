@@ -34,7 +34,7 @@ Now that there is a card implemented, the next step is to figure out a way to bu
 (def suits ["Diamonds" "Hearts" "Spades" "Clubs"])
 
 (defn make-deck [ranks suits]
-  (for [r ranks s suits] (card r s)))
+  (for [r ranks s suits] (make-card r s)))
 ```
 
 First we made two vectors containing ranks and suits. Next the `make-deck` function uses a nested `for` loop to generate all combinatios of ranks and suits. The `for` syntax might appear somewhat unusual if you're not familiar to clojure. In essence, with each outer iteration `(for [r ranks s suits ...` is binding each element from `ranks` to `r` then within that, each element of `suits` is bound to `s`. So it loops through every combination of rank and suit, with the `make-deck` function called on each, returning a sequence of cards. We can test this out by calling the function and insepcting the first few cards:
@@ -62,9 +62,9 @@ So we have cards and we have a deck. One more useful functonality is to get the 
 This functon uses a simple  `cond` statement - whichever condition first evaluates to true is returned as the value. The `:else` block casts the rank to an integer if the card rank is numbered, else you get 10 for the face cards and 11 for an ace - we can try this out with a few examples:
 
 ```clojure
-(get-value (card "8" "Spades")) ;; 8
-(get-value (card "A" "Spades")) ;; 11
-(get-value (card "J" "Spades")) ;; 10
+(get-value (make-card "8" "Spades")) ;; 8
+(get-value (make-card "A" "Spades")) ;; 11
+(get-value (make-card "J" "Spades")) ;; 10
 ```
 
 So we can generate a deck of cards with a suit and rank, and from that we can get a face value. These are the basic builing blocks of the model. In the next post I will play around with flow control and immutable data structures to build a blackjack game.
