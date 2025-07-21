@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Spatial on Joe k Bullard</title>
+    <link>http://localhost:1313/tags/spatial/</link>
+    <description>Recent content in Spatial on Joe k Bullard</description>
+    <image>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 09 Jun 2025 21:39:16 +0100</lastBuildDate><atom:link href="http://localhost:1313/tags/spatial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TIL how to use Java spatial libraries in Clojure</title>
+      <link>http://localhost:1313/posts/geotools-clojure-interop/</link>
+      <pubDate>Mon, 09 Jun 2025 21:39:16 +0100</pubDate>
+      
+      <guid>http://localhost:1313/posts/geotools-clojure-interop/</guid>
+      <description>&lt;p&gt;Being able to utilise Java libraries through interop is a really powerful Clojure feature. One such example that I&amp;rsquo;ve been using recently is Geotools, a geospatial library - specifically, I have been usign it to create and write to a &lt;a href=&#34;https://www.geopackage.org/&#34;&gt;GeoPackage.&lt;/a&gt;. This post will quickly run through the basics of accessing Java libraries through Clojure - this will be followed by another post showing how to use this library to create a GeoPackage.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
