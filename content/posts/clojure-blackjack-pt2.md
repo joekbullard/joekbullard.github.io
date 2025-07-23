@@ -63,8 +63,8 @@ We can clean this up a bit by adding a predicate function that returns `true` if
 While we're at it, we can also make one for face cards and make our `get-value` function a little cleaner.
 
 ```clojure
-(defn face? [r] 
-  (#{"J" "Q" "K"} r))
+(defn face? [c] 
+  (#{"J" "Q" "K"} (:rank c)))
 
 (defn get-value [c]
   (cond
