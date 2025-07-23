@@ -10,7 +10,17 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 20 Jul 2025 21:10:11 +0100</lastBuildDate><atom:link href="https://joekbullard.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Jul 2025 21:44:28 +0100</lastBuildDate><atom:link href="https://joekbullard.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blackjack with Clojure - Part 2</title>
+      <link>https://joekbullard.github.io/posts/clojure-blackjack-pt2/</link>
+      <pubDate>Wed, 23 Jul 2025 21:44:28 +0100</pubDate>
+      
+      <guid>https://joekbullard.github.io/posts/clojure-blackjack-pt2/</guid>
+      <description>&lt;p&gt;This is the second of two posts using Clojure to make a simple blackjack program, in the &lt;a href=&#34;https://joekbullard.github.io/posts/clojure-blackjack-pt1/&#34;&gt;previous post&lt;/a&gt; we made a hand, deck and a way to get the face value of the card. We will build on this to include scoring and the actual game logic.&lt;/p&gt;
+&lt;p&gt;Building on where we finished last time, getting the value of individual cards, we will make a function to get the score of multiple cards. The easiest way to do this is to use our &lt;code&gt;get-value&lt;/code&gt; function with &lt;code&gt;map&lt;/code&gt; and then &lt;code&gt;reduce&lt;/code&gt; to get the combined total:&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Blackjack with Clojure - Part 1</title>
       <link>https://joekbullard.github.io/posts/clojure-blackjack-pt1/</link>
